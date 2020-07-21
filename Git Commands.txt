@@ -25,26 +25,19 @@ Basic Git Commands
 
 How to resolve issues with 'merge'
 ----------------------------------------
-
-Please move or remove them before you merge
-Trying to do a git pull but getting this message, saying it can't pull
+If you get the following message during merge:
+"Please move or remove them before you merge
+Aborting"
 
 First clear tracked files by using :
 
 git clean -d -f
 
-Also
-
-On remote, strange changes interfere with git pull so ....
-
-git reset --hard origin/master // discards all the funny changes that have crept in on remote
-
-git pull origin master
 
 
 
 
-Installing GIT
+Installing Git
 ----------------
 Windows
 http://git-scm.com/download/mac
