@@ -1,0 +1,60 @@
+Basic Git Commands
+-------------------------------
+
+.$ git init             // Initialize Local Git Repository
+
+.$ git add<file>       // Add File(s) To Index
+
+.$ git status         // Check status of Working Tree
+
+.$ git commit         //Commits Change In Index
+
+.$ git push          //Push To Remote Repository
+
+.$ git pull         // Pull Latest from Remote Repository
+
+.$ git clone       // Clone Repository Into New Directory
+
+
+
+// How to resolve issues with 'merge'
+
+Please move or remove them before you merge
+Trying to do a git pull but getting this message, saying it can't pull
+
+First clear tracked files by using :
+
+git clean -d -f
+
+Also
+
+On remote, strange changes interfere with git pull so ....
+
+git reset --hard origin/master // discards all the funny changes that have crept in on remote
+
+git pull origin master
+
+
+
+
+Installing GIT
+----------------
+Windows
+http://git-scm.com/download/mac
+
+Mac
+http://git-scm.com/download/mac
+
+LINUS (Debian)
+$ sudo apt-get install git
+
+Linus (Fedora)
+$ sudo yum install git
+
+
+
+
+
+
+
+
