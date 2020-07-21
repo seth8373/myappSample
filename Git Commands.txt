@@ -24,7 +24,7 @@ Basic Git Commands
 
 
 How to resolve issues with 'merge'
-------------------------------------------
+----------------------------------------
 
 Please move or remove them before you merge
 Trying to do a git pull but getting this message, saying it can't pull
