@@ -1,5 +1,5 @@
 # myapp
-This app shows basic commit commands
+This app shows basic Git commands
 
 
 
