@@ -45,7 +45,7 @@ git clean -d -f
 Installing Git
 ----------------
 Windows
-http://git-scm.com/download/mac
+http://git-scm.com/download/windows
 
 Mac
 http://git-scm.com/download/mac
